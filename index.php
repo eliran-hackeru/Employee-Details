@@ -70,6 +70,7 @@ and open the template in the editor.
         ?>
         <div class="row justify-content-center">
         <form action="process.php" method="POST">
+            <h2>Add or Update Employee</h2>
             <input type="hidden" name="id" value="<?php echo $id; ?>">
             <div class="form-group">
             <label>Name</label>
