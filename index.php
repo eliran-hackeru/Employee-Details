@@ -91,9 +91,9 @@ and open the template in the editor.
             <?php
             if ($update == true):
             ?>
-                <button type="submit" class="btn btn-info" name="update">Update</button>
+                <button id="update" type="submit" class="btn btn-info" name="update">Update</button>
             <?php else: ?>
-                <button type="submit" class="btn btn-primary" name="save">Save</button>
+                <button id="save" type="submit" class="btn btn-primary" name="save">Save</button>
             <?php endif; ?>
             </div>
         </form>
