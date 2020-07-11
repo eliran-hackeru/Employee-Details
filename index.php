@@ -48,9 +48,9 @@ and open the template in the editor.
                 <?php
                     while ($row = $result->fetch_assoc()): ?>
                         <tr>
-                            <td><?php echo $row['name']; ?></td>
-                            <td><?php echo $row['email']; ?></td>
-                            <td><?php echo $row['phone']; ?></td>
+                            <td id="colName"><?php echo $row['name']; ?></td>
+                            <td id="colEmail"><?php echo $row['email']; ?></td>
+                            <td id="colPhone"><?php echo $row['phone']; ?></td>
                             <td>
                                 <a href="index.php?edit=<?php echo $row['id']; ?>"
                                    class="btn btn-info">Edit</a>
