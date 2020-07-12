@@ -52,9 +52,9 @@ and open the template in the editor.
                             <td id="colEmail"><?php echo $row['email']; ?></td>
                             <td id="colPhone"><?php echo $row['phone']; ?></td>
                             <td>
-                                <a href="index.php?edit=<?php echo $row['id']; ?>"
+                                <a id="colEdit" href="index.php?edit=<?php echo $row['id']; ?>"
                                    class="btn btn-info">Edit</a>
-                                <a href="process.php?delete=<?php echo $row['id']; ?>"
+                                <a id="colDelete" href="process.php?delete=<?php echo $row['id']; ?>"
                                    class="btn btn-danger">Delete</a>
                             </td>
                         </tr>
