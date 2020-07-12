@@ -19,7 +19,7 @@ and open the template in the editor.
         
         if (isset($_SESSION['message'])): ?>
         
-        <div class="alert alert-<?=$_SESSION['msg_type']?>">
+        <div id="alert" class="alert alert-<?=$_SESSION['msg_type']?>">
              
              <?php
                 echo $_SESSION['message'];
